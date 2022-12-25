@@ -1,6 +1,6 @@
 package part1_Creational.Factory.SimpleFactory;
 
-import gof.part2_Creational.Factory.SimpleFactory.product.*;
+import part1_Creational.Factory.SimpleFactory.product.*;
 
 /**
  * @auther xianyue

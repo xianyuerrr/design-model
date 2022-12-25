@@ -20,6 +20,7 @@ public class RandomIdGenerator implements IdGenerator {
         return id;
     }
 
+
     private String getLastfieldOfHostName() {
         String substrOfHostName = null;
         try {
@@ -32,6 +33,7 @@ public class RandomIdGenerator implements IdGenerator {
         }
         return substrOfHostName;
     }
+
 
     private String generateRandomAlphameric(int length) {
         char[] randomChars = new char[length];
